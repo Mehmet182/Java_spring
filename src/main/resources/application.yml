@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: stajcell
+  datasource:
+    url: jdbc:postgresql://localhost:5432
+    username: root
+    password: 1234
+    driverClassName: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+
+  h2:
+    console:
+      enabled: true
